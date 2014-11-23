@@ -1,6 +1,8 @@
 Getting-and-Cleaning-Data-Course-Project
 ========================================
 
+Steps to produce output:
+
 1. Initializing libraries (reshape2)
 2. Reading in resources that will be used for both training and testing datasets (activity labels, and variable names)
 3. Reading and preparing datasets (training and testing)
