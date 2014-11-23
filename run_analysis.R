@@ -26,4 +26,5 @@ castDataMean<-dcast(meltedData,subjectId + activityLabel ~ variable,mean)
 castDataSd<-dcast(meltedData,subjectId + activityLabel ~ variable,sd)
 
 write.table(castDataMean, file = "tidy.txt", row.name=FALSE)
+castDataMean
 
