@@ -11,6 +11,7 @@ Steps to produce output:
  3. Adding subjectIds
  4. Adding activity labels
 4. Add the rows of the two datasets
+5. Subset the columns of the dataset to include only mean and sd data
 5. Recode activity labels to text
 6. Melt data by subjectId and activityId
 7. Cast melted data to get mean and sd of variables
